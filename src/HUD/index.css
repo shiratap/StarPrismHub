@@ -65,8 +65,14 @@ input[type='checkbox'] {
 	text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #0ff, 0 0 16px #0ff,
 		0 0 20px #0ff, 0 0 24px #0ff, 0 0 28px #0ff;
 }
-@media (max-width: 600px) {
+
+@media (max-width: 800px), (max-height: 800px) {
 	#filter {
-		font-size: 2em;
+		font-size: 26px;
+	}
+}
+@media (max-width: 550px), (max-height: 400px) {
+	#filter {
+		font-size: 14px;
 	}
 }

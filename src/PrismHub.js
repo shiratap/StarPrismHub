@@ -6,6 +6,7 @@ import Header from './Header';
 import Twitch from './Twitch';
 import Youtube from './Youtube';
 import Socials from './Socials';
+import Twitter from './Twitter';
 
 class PrismHub extends React.Component {
 	constructor() {
@@ -17,6 +18,7 @@ class PrismHub extends React.Component {
 			'Socials-Component': true,
 			'Twitch-Component': true,
 			'Youtube-Component': true,
+			'Twitter-Component': true,
 			'Dark-Mode': false,
 			'Prisoner-Mode': false,
 		};
@@ -62,7 +64,7 @@ class PrismHub extends React.Component {
 	componentDidMount() {
 		if (
 			localStorage.getItem('StarPrism') &&
-			Object.entries(JSON.parse(localStorage.getItem('StarPrism'))).length === 8
+			Object.entries(JSON.parse(localStorage.getItem('StarPrism'))).length === 9
 		) {
 			let shortcut = JSON.parse(localStorage.getItem('StarPrism'));
 			this.setState({
@@ -71,6 +73,7 @@ class PrismHub extends React.Component {
 				'Filter-Component': shortcut['Filter-Component'],
 				'Twitch-Component': shortcut['Twitch-Component'],
 				'Youtube-Component': shortcut['Youtube-Component'],
+				'Twitter-Component': shortcut['Twitter-Component'],
 				'Dark-Mode': shortcut['Dark-Mode'],
 				'Prisoner-Mode': shortcut['Prisoner-Mode'],
 			});
@@ -94,6 +97,9 @@ class PrismHub extends React.Component {
 				)}
 				{this.state['Twitch-Component'] && <Twitch toggle={this.toggle} />}
 				{this.state['Youtube-Component'] && <Youtube toggle={this.toggle} />}
+				{this.state['Twitter-Component'] && (
+					<Twitter darkMode={this.state['Dark-Mode']} />
+				)}
 			</>
 		);
 	}

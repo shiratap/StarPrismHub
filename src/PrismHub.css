@@ -71,22 +71,23 @@
 	display: table-cell;
 	position: absolute;
 	width: 45%;
-	font-size: 40px;
+	font-size: 30px;
 	height: 100%;
 	overflow-y: scroll;
 }
-@media (max-width: 1600px) {
+
+@media (max-width: 800px), (max-height: 800px) {
 	.card-description {
-		font-size: 34px;
+		font-size: 20px;
 	}
 }
-@media (max-width: 1387px) {
+@media (max-width: 600px), (max-height: 600px) {
 	.card-description {
-		font-size: 26px;
+		font-size: 12px;
 	}
 }
-@media (max-width: 1000px) {
+@media (max-width: 400px), (max-height: 400px) {
 	.card-description {
-		font-size: 1em;
+		font-size: 8px;
 	}
 }

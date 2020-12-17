@@ -28,7 +28,8 @@ function Header(props) {
 					className='header-segment-4'
 					data-darkMode={props.state['Dark-Mode']}
 				>
-					Star Prism Hub
+					<div>Star Prism Hub</div>
+					<div>A fan made app</div>
 				</div>
 				<input
 					type='checkbox'

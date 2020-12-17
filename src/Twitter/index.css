@@ -1,0 +1,48 @@
+#Twitter {
+	height: 100%;
+	overflow: hidden;
+	background-color: #eeee;
+}
+#Twitter .container {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+#Twitter[data-darkMode='true'] {
+	background-color: black;
+}
+#Twitter .container .inner-container {
+	overflow-y: scroll;
+	height: auto;
+	width: 70%;
+	max-width: 1200px;
+	position: absolute;
+	left: 50%;
+	top: 3%;
+	bottom: 3%;
+	transform: translateX(-50%);
+}
+@media (max-width: 1500px), (max-height: 80px) {
+	#Twitter .container .inner-container {
+		width: 60%;
+	}
+}
+@media (max-height: 550px) {
+	#Twitter .container .inner-container {
+		width: 50%;
+	}
+}
+@media (max-width: 800px) {
+	#Twitter .container .inner-container {
+		width: 95%;
+	}
+}
+#twitter-widget-1 {
+	width: 100%;
+	height: 100%;
+}
+.body {
+	overflow: hidden;
+}
