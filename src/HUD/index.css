@@ -1,0 +1,72 @@
+#filter {
+	font-size: 3em;
+	background-color: rgb(90, 40, 255);
+	height: auto;
+	overflow: hidden;
+}
+#filter[data-darkMode='true'] {
+	background-color: rgb(49, 0, 33);
+}
+#filter[data-filterOn='false'] {
+	max-height: 0;
+	transition: max-height 0.25s ease-out;
+}
+#filter[data-filterOn='false']:after {
+	padding: 0px;
+}
+#filter[data-filterOn='true'] {
+	height: auto;
+	max-height: 1000px;
+	transition: max-height 0.25s ease-in;
+}
+#filter .row {
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+#filter .row .segment-6 {
+	display: table-cell;
+	position: relative;
+	width: 50%;
+}
+#filter .row .segment-6 p {
+	background-color: #0ff;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+	text-align: center;
+	overflow: hidden;
+}
+#filter .row .segment-6 div {
+	position: relative;
+	background-color: #d25ed4;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+input[type='checkbox'] {
+	font-size: 30px;
+}
+
+#filter .row .segment-6 div input {
+	display: none;
+}
+#filter .row .segment-6 div label[data-checked='true'] {
+	text-shadow: 0 0 4px #fff, 0 0 8px #fff, 0 0 12px #0ff, 0 0 16px #0ff,
+		0 0 20px #0ff, 0 0 24px #0ff, 0 0 28px #0ff;
+}
+@media (max-width: 600px) {
+	#filter {
+		font-size: 2em;
+	}
+}

@@ -1,0 +1,63 @@
+.twitch {
+	background-image: url('../assets/stars.jpg');
+	background-position: 0px, 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#chat_embed {
+	margin: 0px;
+	border: 0px;
+	height: 90%;
+	width: 30%;
+}
+.twitch-img {
+	position: relative;
+	top: 0px;
+	height: 100%;
+}
+twitch-logo {
+	height: auto;
+}
+
+#stream {
+	height: 90%;
+	width: 70%;
+}
+.twitch-section {
+	font-size: 0px;
+	height: 100%;
+	width: auto;
+}
+.right-img {
+	transform: scaleX(-1);
+}
+
+@media (max-width: 666px) {
+	.twitch-img {
+		display: none;
+	}
+	twitch-section {
+		width: 100%;
+		height: auto;
+	}
+}
+@media (max-width: 200px) {
+	.twitch-section {
+		width: 100%;
+	}
+}
+@media (max-width: 1024px) {
+	#chat_embed {
+		height: 45%;
+		width: 100%;
+	}
+	#stream {
+		height: 45%;
+		width: 100%;
+	}
+	.twitch {
+		padding: 0px;
+		width: 100%;
+		height: 100%;
+	}
+}

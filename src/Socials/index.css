@@ -1,0 +1,29 @@
+#Socials {
+	height: auto;
+	width: 100%;
+}
+#Socials[data-darkMode='true'] {
+	background-color: rgb(21, 0, 61);
+}
+#Socials .container .row {
+	margin: auto;
+}
+.icons {
+	height: 100%;
+	max-height: 200px;
+	width: auto;
+	max-width: 16.66%;
+}
+.icons[data-darkMode='true'] {
+	filter: invert(0.1);
+}
+@media (max-height: 800px), (max-width: 1050px) {
+	.icons {
+		max-height: 100px;
+	}
+}
+@media (max-height: 500px), (max-width: 600px) {
+	.icons {
+		max-height: 50px;
+	}
+}

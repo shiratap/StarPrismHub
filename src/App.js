@@ -1,25 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import PrismHub from './PrismHub';
+import celiLetsGo from './assets/celiLetsGo.gif';
+import celiSnow from './assets/celiSnow.gif';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+	constructor() {
+		super();
+		this.state = { loading: true };
+	}
+	componentDidMount() {
+		demoAsyncCall().then(() => this.setState({ loading: false }));
+	}
+
+	render() {
+		const { loading } = this.state;
+
+		if (loading) {
+			return (
+				<>
+					<div className='background'>
+						<div className='loading-container'>
+							<div className='loading'>
+								<div>Loading</div>
+								<img src={celiLetsGo} />
+								<img src={celiSnow} />
+								<img src={celiLetsGo} />
+							</div>
+						</div>
+					</div>
+				</>
+			);
+		}
+
+		return (
+			<>
+				<PrismHub />
+			</>
+		);
+	}
 }
-
+function demoAsyncCall() {
+	return new Promise((resolve) => setTimeout(() => resolve(), 2500));
+}
 export default App;
