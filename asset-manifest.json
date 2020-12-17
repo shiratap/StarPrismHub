@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/StarPrismHub/static/css/main.6ff0c9e0.chunk.css",
-    "main.js": "/StarPrismHub/static/js/main.dc6f39c4.chunk.js",
-    "main.js.map": "/StarPrismHub/static/js/main.dc6f39c4.chunk.js.map",
+    "main.js": "/StarPrismHub/static/js/main.c316ed75.chunk.js",
+    "main.js.map": "/StarPrismHub/static/js/main.c316ed75.chunk.js.map",
     "runtime-main.js": "/StarPrismHub/static/js/runtime-main.18563c2b.js",
     "runtime-main.js.map": "/StarPrismHub/static/js/runtime-main.18563c2b.js.map",
     "static/js/2.75a086ed.chunk.js": "/StarPrismHub/static/js/2.75a086ed.chunk.js",
@@ -27,6 +27,6 @@
     "static/js/runtime-main.18563c2b.js",
     "static/js/2.75a086ed.chunk.js",
     "static/css/main.6ff0c9e0.chunk.css",
-    "static/js/main.dc6f39c4.chunk.js"
+    "static/js/main.c316ed75.chunk.js"
   ]
 }
