@@ -31,7 +31,7 @@ function Twitch() {
 						title='stream'
 						id='stream'
 						autoplay='false'
-						src='https://player.twitch.tv/?channel=starsmitten&parent=localhost&parent=github.io'
+						src='https://player.twitch.tv/?channel=starsmitten&parent=localhost&parent=shiratap.github.io'
 						frameborder='0'
 						allowfullscreen='true'
 						scrolling='no'
@@ -40,7 +40,7 @@ function Twitch() {
 					<iframe
 						title='twitch-chat'
 						id='chat_embed'
-						src='https://www.twitch.tv/embed/starsmitten/chat?parent=localhost&parent=github.io'
+						src='https://www.twitch.tv/embed/starsmitten/chat?parent=localhost&parent=shiratap.github.io'
 					></iframe>
 				</div>
 			</div>
