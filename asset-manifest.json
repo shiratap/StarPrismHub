@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/StarPrismHub/static/css/main.6ff0c9e0.chunk.css",
+    "main.js": "/StarPrismHub/static/js/main.dc6f39c4.chunk.js",
+    "main.js.map": "/StarPrismHub/static/js/main.dc6f39c4.chunk.js.map",
+    "runtime-main.js": "/StarPrismHub/static/js/runtime-main.18563c2b.js",
+    "runtime-main.js.map": "/StarPrismHub/static/js/runtime-main.18563c2b.js.map",
+    "static/js/2.75a086ed.chunk.js": "/StarPrismHub/static/js/2.75a086ed.chunk.js",
+    "static/js/2.75a086ed.chunk.js.map": "/StarPrismHub/static/js/2.75a086ed.chunk.js.map",
+    "index.html": "/StarPrismHub/index.html",
+    "static/css/main.6ff0c9e0.chunk.css.map": "/StarPrismHub/static/css/main.6ff0c9e0.chunk.css.map",
+    "static/js/2.75a086ed.chunk.js.LICENSE.txt": "/StarPrismHub/static/js/2.75a086ed.chunk.js.LICENSE.txt",
+    "static/media/CeliQueen.55c386cf.jpg": "/StarPrismHub/static/media/CeliQueen.55c386cf.jpg",
+    "static/media/YTLogo.39303e31.png": "/StarPrismHub/static/media/YTLogo.39303e31.png",
+    "static/media/bestCeline.f75b300e.mp4": "/StarPrismHub/static/media/bestCeline.f75b300e.mp4",
+    "static/media/celiLetsGo.ad3d9620.gif": "/StarPrismHub/static/media/celiLetsGo.ad3d9620.gif",
+    "static/media/celiSnow.232e8358.gif": "/StarPrismHub/static/media/celiSnow.232e8358.gif",
+    "static/media/light-discord.f0f60c5c.png": "/StarPrismHub/static/media/light-discord.f0f60c5c.png",
+    "static/media/light-instagram.80c61fbb.png": "/StarPrismHub/static/media/light-instagram.80c61fbb.png",
+    "static/media/light-tiktok.b62ccd44.png": "/StarPrismHub/static/media/light-tiktok.b62ccd44.png",
+    "static/media/light-twitter.889db2ca.png": "/StarPrismHub/static/media/light-twitter.889db2ca.png",
+    "static/media/light-youtube.0768de8c.png": "/StarPrismHub/static/media/light-youtube.0768de8c.png",
+    "static/media/prism.6725401f.gif": "/StarPrismHub/static/media/prism.6725401f.gif",
+    "static/media/index.css": "/StarPrismHub/static/media/youtubeBackground.67990bec.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.18563c2b.js",
+    "static/js/2.75a086ed.chunk.js",
+    "static/css/main.6ff0c9e0.chunk.css",
+    "static/js/main.dc6f39c4.chunk.js"
+  ]
+}
