@@ -12,6 +12,7 @@
 /build
 
 # misc
+./src/assets/bestCeline.mp4
 .eslintcache
 .DS_Store
 .env.local
