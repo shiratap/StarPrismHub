@@ -4,6 +4,8 @@
 #menu[data-darkMode='true'] {
 	background-color: black;
 }
+#menu a {
+}
 .row input {
 	width: 0px;
 	height: 0px;

@@ -4,7 +4,7 @@ import starprism from '../assets/prism.gif';
 
 import './index.css';
 
-function Twitch() {
+function Twitch(props) {
 	return (
 		<>
 			<div className='container twitch'>
@@ -40,7 +40,11 @@ function Twitch() {
 					<iframe
 						title='twitch-chat'
 						id='chat_embed'
-						src='https://www.twitch.tv/embed/starsmitten/chat?parent=localhost&parent=shiratap.github.io'
+						src={
+							props.state['Dark-Mode'].on
+								? 'https://www.twitch.tv/embed/starsmitten/chat?darkpopout&parent=localhost&parent=shiratap.github.io'
+								: 'https://www.twitch.tv/embed/starsmitten/chat?parent=localhost&parent=shiratap.github.io'
+						}
 					></iframe>
 				</div>
 			</div>

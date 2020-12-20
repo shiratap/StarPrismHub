@@ -50,7 +50,7 @@
 		0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
 	text-align: center;
 	z-index: 1;
-	font-size: 8em;
+	font-size: 4em;
 	text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 6px #292736, 0 0 8px #292736,
 		0 0 10px #292736, 0 0 12px #292736, 0 0 14px #292736;
 	animation: glow 1s infinite alternate, fadeIn ease-in 20s;
@@ -81,7 +81,7 @@
 
 @media (max-width: 1600px) {
 	#to-top-star {
-		font-size: 4em;
+		font-size: 3em;
 	}
 }
 @media (max-width: 1000px) {
@@ -89,7 +89,7 @@
 		height: 60%;
 	}
 	#to-top-star {
-		font-size: 36px;
+		font-size: 26px;
 		border: 5px solid rgb(90, 40, 255);
 	}
 }
@@ -98,8 +98,8 @@
 		height: 40%;
 	}
 	#to-top-star {
-		font-size: 26px;
-		width: 30%;
+		font-size: 20px;
+		width: 60%;
 		border: 2px solid rgb(90, 40, 255);
 	}
 }
